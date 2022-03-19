@@ -1,6 +1,8 @@
 body{
     background-color: #F5F7FA;
     font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
     font-size: 14px;
     line-height: 24px;
 }
@@ -13,34 +15,26 @@ body{
 }
 /* Main content section*/
 .right_conteiner{
-    padding: 100px 90px;
+    padding: 50px 90px;
 }
 .about{
     margin: 0 0 40px 0;
 }
 .about_profession{
     font-weight: bold;
-    font-size: 14px;
     line-height: 17px;
-    color: #000;
     margin: 0 0 20px 0;
 }
 .about_name{
-    font-style: normal;
     font-weight: bold;
     font-size: 45px;
     line-height: 55px;
-    color: #000;
     margin: 0 0 25px 0;
     
 }
 .about_description{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
     color: #595959;
-    width: 400px;
+    width: 500px;
 
 }
 /* My projects section*/
@@ -48,36 +42,24 @@ body{
     margin: 0 0 50px 0;
 }
 .section_title{
-    font-style: normal;
     font-weight: bold;
     font-size: 22px;
     line-height: 27px;
-    color: #000000;
     margin-bottom: 10px;
 }
 .projects_list{
     padding: 0 0 0 17px;
-    font-style: normal;
     font-weight: bold;
     font-size: 14px;
     line-height: 24px;
-    color: #000;
-}
-.projects_item{
-    color: #000;
+ 
 }
 .projects_link{
-    font-style: normal;
     font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-    color: #595959;
+    color: #e1a121;
 }
 .projects_text{
-    font-style: normal;
     font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
     color: #595959;
     margin-left: 5px;
 }
@@ -91,19 +73,15 @@ body{
 /* My work experience section*/
 
 .experience{
-    color: #FB6D3A;
+    color: #e1a121;
 }
 .experience_position{
-    font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 20px;
-    color: #000;
     margin: 0 0 10px 0;
 }
 .experience_period{
-    font-style: normal;
-    font-weight: normal;
     font-size: 12px;
     line-height: 15px;
     color: #A8A8A8;
@@ -111,99 +89,74 @@ body{
 
 }
 .experience_separator{
-    font-style: normal;
-    font-weight: normal;
     font-size: 12px;
     line-height: 15px;
-    color: #000;
 }
 .experience_duties{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
     color: #595959;
 }
 /* My education Section*/
 
 
-.my-education-section h4{
-    font-style: normal;
+.education h4{
     font-weight: bold;
     font-size: 16px;
     line-height: 20px;
-    color:#FB6D3A;
+    color:#e1a121;
     
 }
-.my-education-faculty{
-    font-style: normal;
+.education_faculty{
     font-weight: bold;
-    font-size: 14px;
     line-height: 17px;
-    color: #000;
     margin: 0 0 5px 0;
 }
-.my-education-period{
-    font-style: normal;
-    font-weight: normal;
+.education_period{
     font-size: 12px;
     line-height: 15px;
     color: #A8A8A8;
 } 
 
-.my-education-period-separator{
-    font-style: normal;
-    font-weight: normal;
+.education_separator{
     font-size: 12px;
     line-height: 15px;
-    color: #000;
+
+
 }
 /* Sidebar section */
-.sidebar-conteiner{
+.sidebar{
     background: #1E2939;
+    color: #FFF;
     width:370px;
     padding: 40px 0px;
 }
 
-.contacts-section,
-.tech-skills-section,
-.soft-skills-section{
+.contacts,
+.tech-skills,
+.soft-skills{
     margin: 50px 0 0 40px;
 }
-.sidebar-title{
-     font-style: normal;
+.sidebar_title{
      font-weight: bold;
      font-size: 22px;
      line-height: 27px;
-     color: #FFF;
      margin-bottom: 25px;
     }
-.contact-section-type{
+.contact_type{
     font-weight: bold;
-    font-size: 14px;
-    line-height: 24px;
-    color: #FFF; 
     margin-right: 5px;
 }
-.contact-section-link{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-    color: #FFF;
+.contact_link{
     opacity: 0.5;
+    color: #A8A8A8;
+    font-size: 16px;
 }
-.tech-skills-list, .soft-skills-list{
+.tech-skills_list, .soft-skills_list{
     padding: 0 0 0 13px;
 }
 
-.tech-skills-item, .soft-skills-item {
-    color: #FB6D3A;
+.tech-skills_item, .soft-skills_item {
+    color: #e1a121;
 }
 .tech-skills_text, .soft-skills_text{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
     color: #FFF;
 }
